@@ -1,0 +1,197 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background: linear-gradient(150deg, #eaeadf, #f66379);
+    /* Example gradient from light green to teal */
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 50px rgba(222, 223, 215, 0.1);
+    width: fit-content;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+
+}
+
+h1 {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(95, 93, 92);
+    font-size: 29px;
+}
+
+.label2 {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;  /* Adjusted for a smoother rounded look */
+    box-sizing: border-box;
+    height: 50px;  /* Increased height */
+    background: linear-gradient(135deg, #d7fff4, #a2ffd3); /* Gradient background */
+    color: #333; /* Darker text for contrast */
+    font-size: 16px;
+    transition: all 0.3s ease; /* Added smooth transition effect */
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50; /* Focus border color */
+    box-shadow: 0 0 8px rgba(0, 150, 136, 0.6); /* Subtle focus shadow */
+    background: linear-gradient(135deg, #a2ffd3, #d7fff4); /* Reversed gradient on focus */
+    transform: scale(1.05); /* Slight zoom effect on focus */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .label2 {
+        width: 100%; /* Full width for smaller screens */
+        padding: 12px;
+        font-size: 14px; /* Slightly smaller font size */
+    }
+
+    button {
+        width: 100%; /* Full width for button on smaller screens */
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .label2 {
+        width: 100%; /* Full width on very small screens */
+        padding: 10px;
+        font-size: 14px; /* Slightly smaller font size */
+    }
+
+    button {
+        width: 100%; /* Full width for button */
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+
+button {
+    background-color: #5c67f2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a54e1;
+}
+
+h2 {
+    color: #444;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #535050;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px; /* Adjust font size on smaller screens */
+    }
+
+    .label2 {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 16px;
+        width: 100%; /* Make the button full width on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px; /* Adjust font size further */
+    }
+
+    .label2 {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 14px;
+        width: 100%; /* Full-width button on mobile */
+    }
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 35px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    color: #444;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #535050;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
